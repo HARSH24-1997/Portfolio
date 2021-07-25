@@ -1,0 +1,14 @@
+.ClickToId{
+    position: fixed;
+    top:40%;
+    bottom:50%;
+    z-index: 100;
+    left:5px
+}
+
+
+.rect{
+    height: 2vh;
+    width: 1vw;
+    background-color: blue;
+}
