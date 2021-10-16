@@ -5,6 +5,9 @@ import Linkedin from '../../../images/linkedin.svg';
 import Github from '../../../images/github.svg';
 import Resume from '../../../images/PDF/Harsh_Rajput.pdf';
 
+const isBrowser = typeof window !== "undefined"
+
+
 function Navbarcomp() {
 
   const [colour,setColour] = useState("white");
@@ -19,8 +22,9 @@ function Navbarcomp() {
     }
   };
 
-
-window.addEventListener('scroll', checkScrollTop)
+  if (isBrowser) {
+    window.addEventListener('scroll', checkScrollTop)
+  }
  
     return (
         <>
