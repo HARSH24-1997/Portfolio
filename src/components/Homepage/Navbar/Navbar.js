@@ -3,7 +3,7 @@ import {Navbar, Nav, Button} from "react-bootstrap";
 import Logo from '../../../images/default-monochrome.svg';
 import Linkedin from '../../../images/linkedin.svg';
 import Github from '../../../images/github.svg';
-import Resume from '../../../images/PDF/Harsh Rajput.pdf';
+import Resume from '../../../images/PDF/Harsh_Rajput.pdf';
 
 function Navbarcomp() {
 
